@@ -30,7 +30,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
-      'primeicons': '/node_modules/primeicons',
+     
     },
   },
 })
