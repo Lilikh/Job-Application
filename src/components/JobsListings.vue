@@ -1,6 +1,6 @@
 <script setup>
 /* import jobData from '@/jobs.json' */
-import jobListing from '@/components/JobListing.vue'
+import JobListing from '@/components/jobListing.vue'
 import {  RouterLink } from 'vue-router';
 import pulseLoader from 'vue-spinner/src/PulseLoader.vue'
 import axios from 'axios';

@@ -1,5 +1,5 @@
 <script setup>
-import JobListings from '@/components/JobListings.vue';
+import JobListings from '@/components/JobsListings.vue';
 </script>
 <template>
   <JobListings />
