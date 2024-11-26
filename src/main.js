@@ -1,7 +1,6 @@
 import "./assets/main.css";
 
-import './node_modules/primeicons/primeicons.css';
-
+import "primeicons/primeicons.css";
 import Toast from'vue-toastification';
 import 'vue-toastification/dist/index.css'
 
