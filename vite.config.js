@@ -3,10 +3,11 @@ import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import vueJsx from '@vitejs/plugin-vue-jsx';
 import vueDevTools from 'vite-plugin-vue-devtools';
-import dotenv from 'dotenv';
+// dotenv is not needed in production on Netlify
+// import dotenv from 'dotenv';
 
-// Load environment variables from .env file
-dotenv.config();
+// Load environment variables from .env file (only for local development)
+// dotenv.config();
 
 export default defineConfig({
   base: '/',
